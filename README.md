@@ -6,3 +6,5 @@ blueletters is a blog of letters
 - PUSH with git remote add origin https://github.com/fischerpj/blueletters.git
             git branch -M main
             git push -u origin main
+- GENERATE the site with **quarto render**
+
