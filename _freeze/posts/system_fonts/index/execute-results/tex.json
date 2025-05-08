@@ -1,0 +1,18 @@
+{
+  "hash": "ad723c022279c2d36b4ace29cee19a57",
+  "result": {
+    "markdown": "---\ntitle: \"System_Fonts\"\nauthor: \"GranPiero\"\ndate: \"2024-04-08\"\ncategories: [it]\nexecute: \n  echo: false\nformat: pdf\npdf-engine: xelatex\nmainfont:   CenturySchL-Roma\nfontsize: 12pt\n---\n\n\n## Install Fonts on Linux\n\n-   i.e. inside Docker /WSL\n\n-   https://www.google.com/search?q=how+to+install+a+font+on+gnu%2Blinux\n\n-   Most Linux distributions store the system-wide fonts in the \"/usr/share/fonts\" directory.\n\n### script \n\nsudo mkdir /usr/share/fonts/truetype/arial\n\ncd /home/rstudio/EXT/\\_myFONTS/Arial\n\nsudo mv *.ttf /usr/share/fonts/truetype/arial*\n\n*sudo fc-cache -f -v*\n\n*sudo chgrp rstudio arial  + sudo chown rstudio arial*\n\n*sudo chown rstudio* .ttf + sudo chgrp rstudio \\*.ttf\n\nfc-match arial\n\n\n::: {.cell}\n\n:::\n\n\nThis result was proved in \\cite{jones.1967}.\n\n\n```{=tex}\n\\begin{tabular}{|l|l|}\\hline\nAge & Frequency \\\\ \\hline\n18--25  & 15 \\\\\n26--35  & 33 \\\\\n36--45  & 22 \\\\ \\hline\n\\end{tabular}\n```\n\nThis manipulates system_fonts\n\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n::: {.cell-output-display}\n\\begin{longtable}{rlr}\n\\caption*{\n{\\large System Fonts available here}\n} \\\\ \n\\toprule\nID & family & N \\\\ \n\\midrule\\addlinespace[2.5pt]\n1 & Arial & 5 \\\\ \n2 & C059 & 8 \\\\ \n3 & Century Schoolbook L & 4 \\\\ \n4 & D050000L & 2 \\\\ \n5 & Dingbats & 1 \\\\ \n6 & Genos & 18 \\\\ \n7 & Nimbus Mono L & 4 \\\\ \n8 & Nimbus Mono PS & 8 \\\\ \n9 & Nimbus Roman & 8 \\\\ \n10 & Nimbus Roman No9 L & 4 \\\\ \n11 & Nimbus Sans & 8 \\\\ \n12 & Nimbus Sans L & 8 \\\\ \n13 & Nimbus Sans Narrow & 8 \\\\ \n14 & P052 & 8 \\\\ \n15 & Poppins & 18 \\\\ \n16 & Roboto & 12 \\\\ \n17 & Roboto Condensed & 8 \\\\ \n18 & Standard Symbols L & 1 \\\\ \n19 & Standard Symbols PS & 2 \\\\ \n20 & TeX Gyre Adventor & 4 \\\\ \n21 & TeX Gyre Bonum & 4 \\\\ \n22 & TeX Gyre Bonum Math & 1 \\\\ \n23 & TeX Gyre Chorus & 1 \\\\ \n24 & TeX Gyre Cursor & 4 \\\\ \n25 & TeX Gyre DejaVu Math & 1 \\\\ \n26 & TeX Gyre Heros & 4 \\\\ \n27 & TeX Gyre Heros Cn & 4 \\\\ \n28 & TeX Gyre Pagella & 4 \\\\ \n29 & TeX Gyre Pagella Math & 1 \\\\ \n30 & TeX Gyre Schola & 4 \\\\ \n31 & TeX Gyre Schola Math & 1 \\\\ \n32 & TeX Gyre Termes & 4 \\\\ \n33 & TeX Gyre Termes Math & 1 \\\\ \n34 & URW Bookman & 8 \\\\ \n35 & URW Bookman L & 4 \\\\ \n36 & URW Chancery L & 1 \\\\ \n37 & URW Gothic & 8 \\\\ \n38 & URW Gothic L & 4 \\\\ \n39 & URW Palladio L & 4 \\\\ \n40 & Z003 & 2 \\\\ \n\\bottomrule\n\\end{longtable}\n:::\n:::\n\n::: {.cell}\n::: {.cell-output-display}\n\\begin{longtable}{rllr}\n\\caption*{\n{\\large System Fonts available here}\n} \\\\ \n\\toprule\nID & family & name & N \\\\ \n\\midrule\\addlinespace[2.5pt]\n1 & Arial & Arial-Black & 1 \\\\ \n2 & Arial & Arial-BoldItalicMT & 1 \\\\ \n3 & Arial & Arial-ItalicMT & 1 \\\\ \n4 & Arial & Arial-BoldMT & 1 \\\\ \n5 & Arial & ArialMT & 1 \\\\ \n6 & Century Schoolbook L & CenturySchL-Ital & 1 \\\\ \n7 & Century Schoolbook L & CenturySchL-Bold & 1 \\\\ \n8 & Century Schoolbook L & CenturySchL-Roma & 1 \\\\ \n9 & Century Schoolbook L & CenturySchL-BoldItal & 1 \\\\ \n\\bottomrule\n\\end{longtable}\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-in-header": [
+        "\\usepackage{booktabs}\n\\usepackage{caption}\n\\usepackage{longtable}\n\\usepackage{colortbl}\n\\usepackage{array}\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": null,
+    "postProcess": false
+  }
+}

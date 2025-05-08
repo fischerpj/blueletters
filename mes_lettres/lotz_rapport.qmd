@@ -1,0 +1,97 @@
+---
+lang: fr
+author:
+  - name: Pierre J. FISCHER
+    affiliation:
+      - name: Pierre J. FISCHER
+        department: fishrp@pm.me +33 76748 2009
+        address: 39 rue de la Figairasse, Bat I
+        postal-code: 34070
+        city: MONTPELLIER
+        country: F-
+address:
+  - Lotz Notaires Associés
+  - 14 rue de Saverne, PFAFFENHOFEN
+  - BP 40010
+  - 67350 Val de Moder
+subject: Succession FISCHER née DURRENBERGER Aline (rapport des libéralités)
+subject-title: "Objet"
+subject-suffix: 
+opening: "Cher Maître, Chère Madame"
+closing: "Recevez mes plus sincères salutations,"
+cc:
+  - lotz@notaires.fr, elodie.jud.67052@notaires.fr
+encl:
+  - document technique
+ps: 
+format: letter-pdf
+geometry: "left=4.2cm,right=2cm,bottom=2.8cm"
+---
+
+Je prends certes l'initiative de cette demande, mais sa portée collective concerne l'ensemble des héritiers, dont tous profiteront.
+
+Je vous prie ainsi de bien vouloir rapporter à la succession les libéralités déguisées et les bénéficiaires identifiées par a) le rapprochement des gros chèques et des factures afférentes aux **travaux** b) l'évaluation de la mise à disposition gratuite du **logement** sur une période de 35 ans au profit de Michèle Fischer ainsi que le bénéfice du **mobilier restant** c) l'évaluation d'une **maison** construite après la donation-partage du **terrain nu** sis à Mertzwiller, 9 rue d'Eschbach et alloué en 1986 à Marguerite Besnier.
+
+Les détails de l'analyse comptable, les méthodes d'évaluation, les arguments qualifiant les libéralités déguisées et/ou indirectes se trouvent dans le document technique joint (22 pages).
+
+Reprenant les valeurs ainsi établies pour les donations déguisées accordées depuis 1986, il reste 129 K€ d'avoir en banque auxquels s'ajoutent le débours de 41 K€ pour Marguerite Besnier. et 46 K€ pour Michèle Fischer. nécessaire pour assurer le versement de 74 K€ à Aline Salzeman. et 142 K€ à Pierre Fischer.
+
+Nous avons d'ailleurs réduit dans ce calcul, le loyer de 180 à 160 K€ (-11% de 35 années honorera l'assistance fournie à notre mère) et similairement la valeur de la maison de 180 à 160 K€ puisque la valeur du terrain nu est déjà contenue dans la donation-partage d'origine. Pierre Fischer rapporte quant à lui 2340 € de dons.
+
+NB: il va de soi que la maison rue d'Eschbach ne sera pas rapportée si Marguerite Besnier établit que l'origine des fonds n'est pas parentale.
+
+Le tableau ci-dessous apporte la preuve indiscutable des libéralités déguisées, presqu'exclusivement en gros travaux et de l'iniquité flagrante dans le traitement des héritiers. Nul ne pourra balayer pour cause d'immatérialité un flux cumulé s'élevant à 580 K€.
+
+```{r, DATA, echo= FALSE}
+data <- tibble::tribble(
+      ~beneficiaire, ~deja_recu, ~nature,
+      "michèle", -160, "loyer",
+      "michèle", -30, "mobilier",
+      "michèle", -1.5, "travaux",
+      "marguerite", -27, "travaux",
+      "marguerite", -160, "maison",
+      "aline", -71, "travaux",
+      "pierre", -2.34, "don",
+      "cash", 129, "banque"
+) |>
+  dplyr::summarise(deja_recu = sum(deja_recu), .by = tidyr::matches("beneficiaire|nature")) |>
+  tibble::rowid_to_column("id") |>
+  dplyr::add_count(beneficiaire) |>
+  dplyr::mutate(reunion = sum(abs(deja_recu)),
+                quotepart = dplyr::case_when(!beneficiaire == "cash"~ reunion/(4*n),
+                                             TRUE~0),
+                a_recevoir= quotepart+deja_recu)
+				
+```
+
+```{r TABLE, echo= FALSE}
+bene <- data$beneficiaire |> unique() 
+bene <- bene[!bene %in% c('cash')]
+
+data |>
+  dplyr::select(-dplyr::matches("^id$|^n$|^reunion")) |>
+  dplyr::filter(beneficiaire != "cash") |>
+  gt::gt(groupname_col = "beneficiaire")  |>
+   gt::summary_rows(
+    groups = bene,
+    columns = c("deja_recu","a_recevoir","quotepart"),
+    fns = list(
+      sous_total = ~sum(., na.rm = TRUE)
+    ),
+    side= "top"
+  ) |>
+  gt::grand_summary_rows(
+    columns = c("deja_recu","a_recevoir","quotepart"),
+    fns = list(
+      reunion = ~sum(., na.rm = TRUE)
+    ),
+    side= "bottom"
+    ) |>
+  gt::fmt_number(decimals=1) |>
+  gt::tab_header("Formule de partage amiable")
+
+```
+
+En conséquence, je vous saurai gré de bien vouloir faire expressément part à mes soeurs de cette proposition et de récolter l'expression de leur accord. Ce qui ouvrira la voie à la rédaction d'un nouveau projet de partage amiable.
+
+Dans l'éventualité d'un accord introuvable, vous voudrez bien m'adresser un procès-verbal de carence, qui en complément de la preuve présente des diligences entreprises me permettra de saisir le tribunal sur la base de la réunion fictive ci-dessus.

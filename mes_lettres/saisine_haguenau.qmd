@@ -1,0 +1,150 @@
+---
+lang: fr
+author:
+  - name: Pierre J. FISCHER
+    affiliation:
+      - name: Pierre J. FISCHER
+        department: fishrp@pm.me +33 76748 2009
+        address: 39 rue de la Figairasse, Bat I
+        postal-code: 34070
+        city: MONTPELLIER
+        country: F-
+address:
+  - Tribunal de Proximité de Haguenau
+  - 41 rue de la Redoute
+  - CS 10240
+  - 67504 HAGUENAU Cedex
+subject: "Assignation en partage judiciaire de succession FISCHER née DURRENBERGER Aline"
+subject-title: "Objet"
+subject-suffix: ""
+opening: "Madame, Monsieur,"
+closing: "Je vous prie d'agréer, Madame, Monsieur, l'expression de mes salutations distinguées,"
+cc:
+encl:
+  - 19 Fev 1986 a_2_DONATION_FISCHER_1986.pdf
+  - 3 Mars 2022 b_PROJET_AFFIRMATION SACRAMENTELLE FISCHER Aline née DURRENBERGER.pdf
+  - 25 Sep 2012 c_D_decompte_mulhouse.pdf (usufruit)
+  - 19 Nov 2021 d_1_DECES_epoux_FISCHER.pdf
+  - 3 Mars 2022 e_PROJET_DECLARATION SUCCESSION FISCHER Aline née DURRENBERGER.pdf
+  - 21 Jun 2024 f_lettre_rappel_signe.pdf
+  - 21 Jun 2024 g_lotz_rapport_signe.pdf 
+  - 21 Jun 2024 h_lotz_technique-v0.99.pdf (22 pages) 
+  - 11 Oct 2024 i_2024-10-11_declinaison_signée.pdf
+  - 22 Jun 2024 j_LETRECO_Depot_R5OK2POF_Successio-enberger.pdf
+  - 10 Fev 2025 k_saisine_haguenau (la présente)
+  
+ps: 
+format: letter-pdf
+---
+
+LE CONTEXTE
+
+Je soussigné, Pierre Jacques FISCHER, demeurant au 39 rue de la Figairasse, Bât I, 34070 MONTPELLIER, ai l'honneur de vous saisir par la présente afin de solliciter un partage judiciaire concernant la succession de feu FISCHER née DURRENBERGER Aline, décédée selon l'**acte de décès**$^d$ de FISCHER née DURRENBERGER Aline du 19 Nov 2021, Numéro 37 - Mairie de Mertzwiller
+
+En effet, trois années après le décès et deux tentatives de règlement amiable, il n'a pas été possible de parvenir à un accord entre les parties concernées. Par conséquent, je me vois contraint de demander l'intervention du tribunal pour procéder au partage des biens conformément aux dispositions légales en vigueur.
+
+En effet, les trois soeurs ont refusé tout à la fois, de faire la réunion fictive des biens distribués après la donation-partage de 1986 et de me restituer, sur l'immeuble sis à Mulhouse, le quasi-usufruit né d'un partage judiciaire qui m'a été imposé en 2011. Et alors que le notaire refuse de m'adresser un procès-verbal de carence, la situation est dans l'impasse.
+
+LES PARTIES
+
+la **donation-partage**$^a$ du 19 Fev 1986 des époux Georges Fischer et Aline Durrenberger, par Me Lotz en quatre parts égales de biens immobiliers au profit des parties héritières et seuls quatre enfants, identifiés par le projet **d'affirmation sacramentelle**$^b$ du 3 mars 2022 qui actualise les adresses comme suit:
+
+-   Michèle Fischer, demeurant à Mertzwiller (67580) 9 rue du Général Koenig
+
+-   Marguerite Besnier, demeurant à Goersdorf (67360) 9 rue des châtaigniers
+
+-   Aline Salzeman, demeurant à Armeau (89500) 34 rue de l'île de France
+
+-   Pierre Fischer, demeurant à Montpellier (34070) 39 rue de la Figairasse Bât I
+
+     \
+
+LE PATRIMOINE EXISTANT
+
+-   en plus de la donation-partage sus-mentionnée la **déclaration de succession**$^e$ du 3 mars 2022 projetée par Me Lotz, se limitait au partage en quatre parts égales
+
+-   du seul **actif net successoral** à hauteur de **129 026,58 €**. Cette proposition n'a pas trouvé l'accord de Pierre F. pour les raisons ci-dessous.
+
+LES MOTIFS
+
+-   la demande de restitution de **74700 €** correspondant à **l'usufruit perdu**$^c$ précocemment par la vente judiciaire forcée en 2012 du lot immobilier de Pierre F. (le nu-proprétaire) se heurte à un refus des trois soeurs alors même qu'elles défendent Michèle F (nue-propriétaire) qui a **consommé l'usufruit** sur son lot avant le décès du *de cujus.* Considérant l'égalité dans la nature des biens (i.e. l'usufruit sur le bien immobiliier dans la période entre la donation et le décès ), ainsi que l'égalité ès qualité d'héritier, il n'est pas recevable de leur appliquer *in fine* une règle de partage doublement discriminatoire et inique.
+
+-   la lettre **lotz_rapport_signe.pdf**$^g$ du 21 Juin 2024 demande le **rapport des libéralités,** sérieusement étayé par le chiffrage et l'argumentaire du document **lotz_technique-v0.99.pdf**$^h$ qui analyse les factures afférentes aux gros chèques (préalablment identifiés sur les relevés bancaires), et permet d'identifier la nature, le montant et les bénéficiaires des gros travaux ainsi que le sort de l'usufruit. Cette étude conclut à un transfert massif et tardif de **libéralités déguisées** aux profit des seules soeurs concomittant à l'appauvrissement de la donatrice.
+
+*en résumé, **le rapport des libéralités** (dont l'effet touchera l'ensemble des héritiers) demande à retenir ce qui est classique en pareil cas, à savoir les investissements en gros travaux (133 K€), le bénéfice du logement gratuit sur 35 ans (160 K€), la valeur du mobilier restant (30 K€) et la maison (160 K€) érigée après la donation de 1986 sur le terrain nu sis à Mertzwiller 9 rue d'Eschbach (lot de Marguerite B.) et de refaire en conséquence le partage de la réunion fictive ainsi obtenue. Cf détail sous "Demandes".*
+
+-   enfin, **l'argument du faisceau** réside dans l'observation que les avantages (dont la matérialité non négigeable se monte à 450 K*€)* sont toujours au bénéfice des soeurs et au détriment du fils.
+
+LES DILIGENCES
+
+-   la **lettre_rappel_signe.pdf**$^f$ résume l'histoire des diligences, restées vaines du 15 nov 2023 et 22 juin 2024 alors que
+
+*le dernier échange de juin 2024, n'a reçu de Me Lotz qu'une fin de non-recevoir, actée en retour par ma lettre **2024-10-11_declinaison_signée.pdf***$^i$ *qui met fin à trois années d'effort amiable.*
+
+-   enfin **LETRECO_Depot_R5OK2POF_Successio-enberger.pdf**$^j$ du 22 Juin 2024 apporte la preuve légale de cette diligence par la transmission à Me Lotz de **lotz_technique-v0.99.pdf** détaillant la source, les méthodes d'évaluation ainsi que les libéralités qualifiables de donation déguisées, que ma demande dans **lotz_rapport_signe.pdf** souhaite voir rapporter à ce projet de partage revisé.
+
+LES DEMANDES
+
+Si la donation-partage de 1986 était voulue égalitaire en son temps, je soussigné Pierre F. demande la réévaluation de la situation au moment du décès par la double prise en considération a) du **"quasi-usufruit" perdu** et b) du **rapport des libéralités** dûment étayé. Pour ces raisons, je demande au tribunal
+
+1.  en première instance d'accorder la **restitution du quasi-usufruit** au profit de Pierre F. pour une valeur de 74.7 K€ au motif de lever le caractère discriminatoire dans le traitement des usufruits consommés avant le décès.
+
+> *En effet il n'est pas recevable de faire valoir pour s'y opposer d'invoquer une double iniquité: celle de refuser la restitution d'un usufruit perdu par Pierre F et de défendre en même temps l'usufruit gagné par Michèle F.*
+
+2.  d'effectuer ensuite, la **réunion fictive** de l'actif restant avec le rapport des libéralités chiffrées par le document lotz_technique et d'opérer le partage sur le modèle ci-dessous (ici sans la restitution préalalble de l'usufruit).
+
+```{r LIBE, echo=FALSE}
+data <- tibble::tribble(
+      ~beneficiaire, ~deja_recu, ~nature,
+      "michèle", -160, "loyer",
+      "michèle", -30, "mobilier",
+      "michèle", -1.5, "travaux",
+      "marguerite", -27, "travaux",
+      "marguerite", -160, "maison",
+      "aline", -71, "travaux",
+      "pierre", -2.34, "don",
+      "cash", 129, "banque"
+) |>
+  dplyr::summarise(deja_recu = sum(deja_recu), .by = tidyr::matches("beneficiaire|nature")) |>
+  tibble::rowid_to_column("id") |>
+  dplyr::add_count(beneficiaire) |>
+  dplyr::mutate(reunion = sum(abs(deja_recu)),
+                quotepart = dplyr::case_when(!beneficiaire == "cash"~ reunion/(4*n),
+                                             TRUE~0),
+                a_recevoir= quotepart+deja_recu)
+
+bene <- data$beneficiaire |> unique() 
+bene <- bene[!bene %in% c('cash')]
+
+data |>
+  dplyr::select(-dplyr::matches("^id$|^n$|^reunion")) |>
+  dplyr::filter(beneficiaire != "cash") |>
+  gt::gt(groupname_col = "beneficiaire")  |>
+   gt::summary_rows(
+    groups = bene,
+    columns = c("deja_recu","a_recevoir","quotepart"),
+    fns = list(
+      sous_total = ~sum(., na.rm = TRUE)
+    ),
+    side= "top"
+  ) |>
+  gt::grand_summary_rows(
+    columns = c("deja_recu","a_recevoir","quotepart"),
+    fns = list(
+      reunion = ~sum(., na.rm = TRUE)
+    ),
+    side= "bottom"
+    ) |>
+  gt::fmt_number(decimals=1) |>
+  gt::tab_header("Formule de partage amiable")
+```
+
+> *De surcroît, les libéralités supplémentaires accordées aux soeurs après la perte de l'usufruit de Pierre F. en 2012, n'ont fait que creuser cette inégalité, toujours à mon détriment, sans aucune vélleité de compensation de la part de Fischer Aline.*
+
+3.  le remboursement des **dépens** ainsi que des **frais irrépétibles** selon CPC Art 700.
+
+LE CHOIX DU NOTAIRE
+
+Je souhaite voir commis le [Notaire Valentin Schott ou à défault Yannick Schott](https://www.bing.com/ck/a?!&&p=f2066ee7e9a9fe535e713659e0db4ee90bd39e3fa6431940c2eba6275c4f6b87JmltdHM9MTczOTE0NTYwMA&ptn=3&ver=2&hsh=4&fclid=04d29d0e-2a39-6ad9-1b33-89a22b806b7b&psq=notaire+Schott+strabsourg&u=a1aHR0cHM6Ly9zY2hvdHQtc2Nod2FhYi1naWxsZXQtbm90YWlyZXMuZnIv&ntb=1) 1 Rue du Dôme - 67000 Strasbourg. etude\@67006.notaires.fr [03 88 32 10 87](tel:+33388321087)
+
+Restant à votre disposition pour toute information complémentaire.

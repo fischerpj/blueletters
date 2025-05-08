@@ -1,0 +1,62 @@
+---
+lang: fr
+author:
+  - name: Pierre J. FISCHER
+    affiliation:
+      - name: Pierre J. FISCHER
+        department: fishrp@pm.me +33 76748 2009
+        address: 39 rue de la Figairasse, Bat I
+        postal-code: 34070
+        city: MONTPELLIER
+        country: F-
+address:
+  - Lotz Notaires Associés
+  - 14 rue de Saverne, PFAFFENHOFEN
+  - BP 40010
+  - 67350 Val de Moder
+subject: Succession FISCHER née DURRENBERGER Aline (rappel de l'état)
+subject-title: "Objet"
+subject-suffix: 
+opening: "Cher Maître, Chère Madame"
+closing: "Recevez mes plus sincères salutations,"
+cc:
+  - lotz@notaires.fr, elodie.jud.67052@notaires.fr
+encl:
+  - 19 Fev 1986 Donation-Partage des époux Fischer par Me Lotz
+  - 19 Nov 2021 Extrait d'acte de Décès, Numéro 37 - Mairie de Mertzwiller
+  - 27 Janvier 2023 Lettre de l'Office Lumière - Me Isely
+  - 15 Mai 2023 et Réponse de Me Lotz
+  - 18 Sep 2023 fin du mandat Office Lumière - P. Fischer
+  - 12 Oct 2923 Ordre du jour proposé pour la démarche amiable - P.Fischer
+  - 24 Oct 2023 Envoi AR de ???
+  - 22 Nov 2023 Envoi AR des Minutes de Visio-conférence du 15 Nov 2023
+  - 27 Nov 2023 et Retour AR
+  - 21 Jun 2024 la présente '*rappel de l'état*'
+  - 21 Jun 2024 lettre-demande du '*rapport des libéralités*'
+  - 21 Jun 2024 document technique (22 pages)
+  
+ps: 
+format: letter-pdf
+---
+
+Suite au décès de Madame FISCHER née DURRENBERGER Aline en date du 19 Novembre 2021, je rappelle que votre projet de partager le seul actif net successoral en quatre sommes égales n'a pas reçu mon accord.
+
+J'avais mandaté l'Office Lumière de Besançon (représenté par Me Isely) de proposer la recherche d'un accord amiable avec mes trois soeurs cohéritières, sur la base des demandes exposées dans la lettre du 27 janvier 2023. *J'ai cependant mis fin à la représentation de l'Office Lumière dans ce dossier le 18 Septembre 2023.*
+
+Malgré votre lettre de fin de non-recevoir du 15 Mai 2023, une vidéo-conférence s'est tenue le 15 Novembre 2023 sous la présidence de Me Johanne Lotz selon l'ordre du jour que je proposai. Les soeurs ont refusé tout à la fois, de faire la réunion fictive des biens distribués après la donation-partage de 1986 et de me restituer, sur l'immeuble sis à Mulhouse, le quasi-usufruit né d'un partage judiciaire qui m'a été imposé.
+
+Le compte-rendu que je vous ai remis avec AR le 27 Nov 2023 acte donc la première diligence que j'ai déployée pour trouver un accord amiable mais aussi son échec.
+
+L'élément nouveau a cependant été la fourniture par vos soins, des factures afférentes aux gros chèques précédemment identifiés, et qui ont permis d'identifier la nature, le montant et les bénéficiaires des gros travaux ainsi que le sort de l'usufruit.
+
+Je vous informe par la présente que je structure ma requête en dossier qui soit directement transposable à la voie judiciaire.
+
+Je vous demanderai donc de bien vouloir établir **le rapport des libéralités** (dont l'effet touche l'ensemble des héritiers) en retenant ce qui est classique, à savoir les investissements en gros travaux, le bénéfice du logement gratuit sur 35 ans, la valeur du mobilier restant et la maison érigée après la donation de 1986 sur le terrain nu sis à Mertzwiller 9 rue d'Eschbach (lot de Marguerite B.) et de recalculer le partage de la réunion fictive ainsi obtenue.
+
+Ma demande à cet effet se trouve détaillée dans une **lettre dédiée** qui contient la proposition chiffrée du partage.
+
+Le **document technique** sera joint séparément, qui détaille la source, les méthodes d'évaluation ainsi que les libéralités qualifiées de donation déguisées, que je souhaite vous voir rapporter à ce projet de partage revisé.
+
+Je vous prierai bien entendu également de bien vouloir transmettre expressément à mes soeurs cette offre de partage toujours amiable, rendue possible par un déchiffrage précis des factures reçues entretemps.
+
+Par souci d'économie, je vous propose d'échanger par voie électronique ( LetReco ou mail simple) les documents qui feront également foi dans la procédure de partage judiciaire, le cas échéant.

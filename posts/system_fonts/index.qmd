@@ -1,0 +1,78 @@
+---
+title: "System_Fonts"
+author: "GranPiero"
+date: "2024-04-08"
+categories: [it]
+execute: 
+  echo: false
+format: pdf
+pdf-engine: xelatex
+mainfont:   CenturySchL-Roma
+fontsize: 12pt
+---
+
+### Fetch Fonts from Windows
+
+-   in *Control Panel\\All Control Panel Items\\Fonts* or *C:\\Windows\\Fonts*
+
+-   copy to *C:\\\_myHUL\\VOL\\RS\\\_EXT\\myFONTS*
+
+### Install Fonts on Linux
+
+-   i.e. inside Docker /WSL
+
+-   https://www.google.com/search?q=how+to+install+a+font+on+gnu%2Blinux
+
+-   Most Linux distributions store the system-wide fonts in the "/usr/share/fonts" directory.
+
+### script
+
+sudo mkdir /usr/share/fonts/truetype/arial
+
+cd /home/rstudio/EXT/\_myFONTS/Arial
+
+sudo mv *.ttf /usr/share/fonts/truetype/arial*
+
+*sudo fc-cache -f -v*
+
+*sudo chgrp rstudio arial + sudo chown rstudio arial*
+
+*sudo chown rstudio* .ttf + sudo chgrp rstudio \*.ttf
+
+fc-match arial
+
+```{r, PRE}
+library(data.table)
+showtext::showtext_auto()
+```
+
+This result was proved in \cite{jones.1967}.
+
+```{=tex}
+\begin{tabular}{|l|l|}\hline
+Age & Frequency \\ \hline
+18--25  & 15 \\
+26--35  & 33 \\
+36--45  & 22 \\ \hline
+\end{tabular}
+```
+This manipulates system_fonts
+
+```{r}
+fonts <- systemfonts::system_fonts() |>
+  data.table::data.table()
+```
+
+```{r, FAMILY}
+fonts[,.N,family][order(family)] |>
+  tibble::rowid_to_column("ID") |>
+  gt::gt() |>
+  gt::tab_header("System Fonts available here")
+```
+
+```{r, NAMES}
+fonts[family %like% "Arial|Century",.N,.(family,name)][order(family)] |>
+  tibble::rowid_to_column("ID") |>
+  gt::gt() |>
+  gt::tab_header("System Fonts available here")
+```

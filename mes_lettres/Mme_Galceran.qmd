@@ -1,0 +1,39 @@
+---
+lang: fr
+author:
+  - name: Pierre et Gladys FISCHER
+    affiliation:
+      - name: Pierre et Gladys FISCHER
+        department: fishrp@pm.me +33 76748 2009
+        address: 39 rue de la Figairasse
+        postal-code: 34070
+        city: MONTPELLIER
+        country: F-
+address:
+  - Madame Mireille Galceran
+  - 25 rue de la Loge
+  - 34000 Montpellier
+subject: Votre propriété au 16 rue des Hortensias
+subject-title: "Objet"
+subject-suffix: 
+opening: "Chère Madame"
+closing: "Recevez mes plus sincères salutations,"
+cc:
+encl:
+  - relevé de propriété simplifié
+ps: 
+format: letter-pdf
+---
+
+Nous habitons, ma femme et moi, un appartement, près de la Chamberte, un quartier dont nous apprécions désormais les avantages depuis trois ans.
+
+Nos promenades alentour nous informent des propriétés qui semblent inhabitées; car nous sommes à la recherche d'une maison individuelle que nos pourrions acquérir sans obstacle de financement, et qui nous offrirait plus d'espace avec la quiétude.
+
+Le *relevé de propriété simplifié* délivré par le cadastre me permet de vous joindre, sans préjuger de l'accueil que vous réserverez à cette lettre que vous n'avez pas sollicitée.
+
+Si d'aventure néanmoins, vous souhaitiez faire notre connaissance et comprendre notre projet, nous serions ravis d'accepter un rendez-vous à votre convenance.
+
+NB: Il va sans dire, que nous sommes des particuliers, agissant en leur nom propre.
+
+Dans l'attente de votre réponse, que nous espérons avenante, recevez chère Madame, nos plus sincères salutations,
+

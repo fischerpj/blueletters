@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "blueletters",
     "section": "",
-    "text": "Hello Second\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nApr 8, 2024\n\n\nTGranPiero\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nApr 8, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nApr 5, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "Hello Second\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nApr 8, 2024\n\n\nTGranPiero\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nApr 8, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nSystem_Fonts\n\n\n\n\n\n\n\nit\n\n\n\n\n\n\n\n\n\n\n\nApr 8, 2024\n\n\nGranPiero\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nApr 5, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/welcome/index.html",
@@ -33,5 +33,12 @@
     "title": "Post With Code",
     "section": "",
     "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "posts/system_fonts/index.html",
+    "href": "posts/system_fonts/index.html",
+    "title": "System_Fonts",
+    "section": "",
+    "text": "\\begin{tabular}{|l|l|}\\hline Age & Frequency \\\\ \\hline 18--25 & 15 \\\\ 26--35 & 33 \\\\ 36--45 & 22 \\\\ \\hline \\end{tabular}"
   }
 ]
