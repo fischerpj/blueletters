@@ -1,6 +1,6 @@
 blueletters is a **blog** of LETTER documents
 
-## extension & template
+## extension & template 
 
 1.  Install and Create
 
