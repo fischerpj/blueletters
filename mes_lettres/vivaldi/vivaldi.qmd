@@ -1,0 +1,36 @@
+---
+lang: fr
+author:
+  - name: Pierre FISCHER
+    affiliation:
+      - name: Pierre FISCHER
+        department: fishrp@pm.me +33 77186 2979
+        city: MONTPELLIER
+address:
+  - Monsieur Jean-Gabriel SABATIER
+  - c/o Mr Bernard Bounoure Sous 
+  - 4 impasse des lentisques
+  - 11000 NARBONNE
+subject: Votre propriété au 7 rue Vivaldi à Montpellier
+subject-title: "Objet"
+subject-suffix: 
+opening: "Cher Monsieur"
+closing: "Recevez mes plus sincères salutations,"
+cc:
+encl:
+format:
+  letter-pdf:
+    output-file: index
+---
+
+Nous recherchons, avec ma femme, dans le quartier Estanove-Chamberte que nous connaissons depuis des années, à acquérir sans obstacle de financement une maison qui nous offrirait plus d'espace.
+
+Jusque là, nous n'avons pas réussi à obtenir une visite de votre bien sis 7 rue Vivaldi à Montpellier.
+
+C'est le *relevé de propriété simplifié* délivré par le cadastre qui me permet de vous joindre, sans préjuger de l'accueil que vous réserverez à cette lettre non sollicitée.
+
+Si d'aventure néanmoins, vous souhaitiez faire notre connaissance et comprendre notre projet, nous serions ravis d'accepter un rendez-vous à votre convenance, pour visiter le bien, sans recourir à un intermédiaire.
+
+NB: Il va sans dire, que nous sommes des particuliers, agissant en leur nom propre.
+
+Dans l'attente de votre réponse, que nous espérons avenante, recevez cher Monsieur, nos plus sincères salutations,

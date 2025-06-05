@@ -1,6 +1,11 @@
 blueletters is a **blog** of LETTER documents
 
-## extension & template 
+## Fonts: Arial
+
+sudo apt install ttf-mscorefonts-installer
+systemfonts::system_fonts()
+
+## extension & template
 
 1.  Install and Create
 

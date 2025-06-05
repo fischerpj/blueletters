@@ -19,7 +19,7 @@ closing: "Recevez mes plus sincères salutations,"
 cc:
 encl:
 ps: 
-format: letter-pdf
+  format: letter-pdf
 ---
 
 Nous habitons, avec ma femme, un appartement, près de la Chamberte, un quartier dont nous apprécions désormais les avantages depuis trois ans.
