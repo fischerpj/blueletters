@@ -2,8 +2,7 @@ blueletters is a **blog** of LETTER documents
 
 ## Fonts: Arial
 
-sudo apt install ttf-mscorefonts-installer
-systemfonts::system_fonts()
+sudo apt install ttf-mscorefonts-installer systemfonts::system_fonts()
 
 ## extension & template
 
@@ -29,3 +28,5 @@ systemfonts::system_fonts()
     -   git branch -M main
     -   git push -u origin main
 -   GENERATE the site with **quarto render**
+-   2604: resume with letter schott2
+-   2606 PUSHUP + remove xps

@@ -1,0 +1,35 @@
+---
+lang: fr
+author:
+  - name: Pierre J. FISCHER 
+    affiliation:
+      - name: Pierre J. FISCHER
+        department: fishrp@protonmail.com +33 76748 2009
+        address: 39 rue de la Figairasse, Bat I
+        postal-code: 34070
+        city: MONTPELLIER
+        country: F-
+address:
+  - N26 Bank SE
+  - Succursale France
+  - 17-21 rue Saint Fiacre
+  - 75002 PARIS
+subject: "Retractation"
+subject-title: ""
+subject-suffix: ""
+opening: "Dear Madam, dear Sir,"
+closing: "Best regards,"
+cc:
+encl:
+  
+ps: 
+format: letter-pdf
+---
+
+I cancel (droit de rétractation) according to law, my account N26 defined as
+
+Name: PIERRE JACQUES FISCHER, 08/02/1958 , and this email as identifier , the following
+
+IBAN: FR80 2043 3026 26N2 6129 7766 143 BIC: NTSBFRM1XXX as of today, while it has been opened today 6 October 2025 please confirm this full cancellation from your side
+
+PS. your terms\@n26.com is not operationnal and npt accepting messages.

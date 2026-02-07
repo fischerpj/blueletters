@@ -1,0 +1,39 @@
+---
+lang: fr
+author:
+  - name: Pierre J. FISCHER
+    affiliation:
+      - name: Pierre J. FISCHER
+        department: fishrp@pm.me +33 76748 2009
+        address: 39 rue de la Figairasse, Bat I
+        postal-code: 34070
+        city: MONTPELLIER
+        country: F-
+address:
+  - Valentin SCHOTT et Notaires Associés
+  - 1 rue du Dôme
+  - 67001 STRASBOURG
+subject: Succession FISCHER née DURRENBERGER Aline
+subject-title: "Objet"
+subject-suffix: 
+opening: "Cher Maître"
+closing: "Recevez mes plus sincères salutations,"
+cc:
+  - jeremy.soune-seyne@67006.notaires.fr
+encl:
+  - 
+ps: 
+format: letter-pdf
+geometry: "left=4.2cm,right=2cm,bottom=2.8cm"
+---
+
+Suite à la première rencontre en votre office du 12 janvier 2026 à Strasbourg, je vous apporte les éléments suivants:
+
+1.  relevés bancaires sous forme de fichiers informatiques
+2.  copie des fac-similés des factures correspondantes aux 40 gros chèques identifiés, sous format pdf.
+3.  fac-similé de la confirmation de la non-ouverture de la succession de Georges F.
+4.  questions subsidiaires de ma part dont
+    -   explication des options dans l'acceptation de succession et de son impact ex-post.
+5.  demande d'un temps de parole pour recentrer le problème (selon ma perspective qui a évoluée depuis le 12 janvier 2026)
+6.  rappel de ma disponibilité du 25 février au 2 mars 2026 ( en attente de votre confirmation)
+7.  fichier récapitulaif de tous les arguments et des demandes pour la fourniture des documents avancés par Me Fauth.

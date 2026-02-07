@@ -1,0 +1,60 @@
+---
+lang: fr
+author:
+  - name: Pierre J. FISCHER 
+    affiliation:
+      - name: Pierre J. FISCHER 1 58 02 67 512 036 14
+        department: fishrp@pm.me +33 76748 2009
+        address: 39 rue de la Figairasse, Bat I
+        postal-code: 34070
+        city: MONTPELLIER
+        country: F-
+address:
+  - Centre de Gestion des Retraites 
+  - DGFIP de la Haute-Vienne
+  - à l'attention de Mme Valérie Durieux
+  - 87043 LIMOGES Cedex
+subject: "Demande d'exonération des prélevements sociaux sur pension française"
+subject-title: ""
+subject-suffix: ""
+opening: "Madame,"
+closing: "et vous prie d'agréer, Madame, l'expression de mes salutations distinguées,"
+cc:
+encl:
+  - _CX01_this_csg_exoneration_158026751203614.pdf
+  - _CX02_2025_11_BPENS_novembre.pdf
+  - _CX03_2551_004106 health insurance confirmation.pdf
+  - _CX03__H_2144_EPO_ASSURANCE_attestation.pdf
+  - _CX04_CIGNA_InsuranceCertificate.pdf
+  - _CX05_Avis_d_impot__sur_les_revenus_et_prelev_sociaux_2024.pdf
+  - _CX06_4135 - DGFIP_Bastien_acceptation partielle.pdf
+  
+ps: 
+format: 
+  letter-pdf:
+    geometry: "left= 4.5cm, right= 3cm, top= 2.5cm, bottom= 3cm"
+---
+
+Je suis résident fiscal français mais assujetti au régime de la sécurité sociale de l'Office Européen des Brevets, établi à Munich.
+
+Par ailleurs, je suis bénéficiaire de la pension civile personnelle Numéro 3111020048771V servie par l’État français au titre de mes fonctions antérieures de fonctionnaire. Et je constate que les prélèvements sociaux (CSG, CRDS, CASA) sont opérés à la source sur cette pension depuis l'origine.
+
+En l’espèce, je suis assujetti au régime de la sécurité sociale de mon dernier employeur, l’Office Européen des Brevets à Munich qui mandate Cigna Healthcare pour en servir les prestations sociales. Je ne suis donc pas affilié à la Sécurité sociale française et mes frais de santé dans le cadre de ce régime étranger sont intégralement et exclusivement supportés par Cigna Healthcare.
+
+Or, conformément aux dispositions du règlement (CE) n° 883/2004 du Parlement européen et du Conseil du 29 avril 2004, relatif à la coordination des systèmes de sécurité sociale, une personne ne peut être assujettie qu’à un seul régime obligatoire de sécurité sociale au sein de l’Union européenne.
+
+En invoquant ce principe communautaire de l'unicité de la législation sociale découlant du réglement CE 1408-71, la législation française prévoit expressément que les personnes affiliées à un régime obligatoire de sécurité sociale d’un autre État membre de l’Union européenne, de l’Espace économique européen ou de la Suisse sont exonérées de CSG et de CRDS sur leurs revenus de source française (cf. article L136-1 du Code de la sécurité sociale, ainsi que la loi de financement de la sécurité sociale pour 2019).
+
+En conséquence, je vous prie de bien vouloir : 1. Procéder à la cessation des prélèvements sociaux sur ma pension française. 2. M’accorder le remboursement des sommes indûment prélevées au titre des années antérieures, conformément aux dispositions applicables en matière de réclamation contentieuse.
+
+Vous trouverez ci-joint les pièces justificatives suivantes :
+
+-   Attestation d’affiliation au régime obligatoire étranger (Cigna – Office Européen des Brevets, Munich).
+
+-   Copie de mon dernier relevé de pension mentionnant les prélèvements sociaux.
+
+-   Copie de mon avis d’imposition sur les revenus 2024.
+
+Au demeurant, mon avis d'imposition reflète déjà l'exonération de la CSG sur les Revenus de Capitaux Mobiliers, comme en témoigne aussi la décision de remboursement de la CSG + CRDS sur un rachat d'assurance-vie opéré en 2021.
+
+Je reste à votre disposition pour toute information complémentaire

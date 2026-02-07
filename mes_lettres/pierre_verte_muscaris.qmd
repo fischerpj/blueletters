@@ -1,0 +1,38 @@
+---
+lang: fr
+author:
+  - name: Pierre FISCHER
+    affiliation:
+      - name: Pierre FISCHER
+        department: fishrp@pm.me +33 76748 2009
+address:
+  - à l'attention de SCI Pierre Verte, 36 Allée Guru, 34070 Montpellier
+  - lettre transmise par Mme Barra (emilie@immobilier-a-montpellier.com)
+subject: Offre d’achat pour le terrain sis 12 rue des Muscaris, 34070 Montpellier
+subject-title: "Objet"
+subject-suffix: 
+opening: "Cher Monsieur, chère Madame"
+closing: "Recevez mes plus sincères salutations,"
+cc:
+encl:
+ps: 
+  format: letter-pdf
+---
+
+Je soussigné Pierre Fischer, né le 8 février 1958 à La Walck, demeurant 39 rue Figairasse 34070 Montpellier, souhaite vous faire part de mon intérêt pour l’acquisition du bien immobilier sis 12 rue Muscaris, 34070 Montpellier (parcelle DT533 dont lot 1 de 500 m2) que vous proposez à la vente.
+
+Par la présente, je vous adresse une offre d’achat ferme au prix de 240 000 € (deux cent quarante mille euros) frais d’agence inclus, sous réserve des conditions suivantes :
+
+\- Absence de servitudes ou de vices non déclarés
+
+\- Absence d'hypothèque empêchant la vente
+
+\- Obtention d’un permis de construire une maison familiale avec garage, purgé de tout recours
+
+\- Signature d’un compromis de vente dans un délai de \[X\] jours à compter de votre acceptation
+
+Cette offre est valable jusqu’au 1 décembre 2025 minuit, au-delà de laquelle elle sera considérée comme caduque.
+
+Je reste à votre disposition pour convenir d’un rendez-vous et échanger sur les modalités de la vente. Dans l’attente de votre retour, je vous prie d’agréer, Madame, Monsieur, l’expression de mes salutations distinguées.
+
+Pierre Fischer
