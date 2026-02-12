@@ -1,0 +1,32 @@
+---
+title: "Contrat CLE2"
+author: "Gladys G. FISCHER"
+date: "2026-02-10"
+format: 
+  pdf:
+    geometry: "left=3cm"
+---
+
+<hr>
+
+Gladys G. FISCHER ggsept\@gmail.com +33 75777 0123
+
+39 rue de la Figairasse, Bat I
+
+34070 MONTPELLIER
+
+<hr>
+
+A: ODDO BHF Banque Privée
+
+CC: johanna.callait\@oddo-bhf.com
+
+Objet: Contrat CLE2
+
+Chère Madame,
+
+Concernant mon contrat CLE2, je confirme ma volonté de le passer en **gestion libre** en demandant la résiliation du mandat de gestion sur ledit contrat CLE 2 50072398.
+
+Recevez mes plus sincères salutations,
+
+Gladys Fischer

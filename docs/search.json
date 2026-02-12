@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with instructions for Macanouil letter-pdf."
+  },
+  {
+    "objectID": "posts/post-with-code/index.html#creating-a-new-letter",
+    "href": "posts/post-with-code/index.html#creating-a-new-letter",
+    "title": "Post With Code",
+    "section": "Creating a New Letter",
+    "text": "Creating a New Letter\nYou can use this as a template to create a letter. To do this, use the following command:\nquarto use template mcanouil/quarto-letter@1.0.3\nThis will install the extension and create an example qmd file and bibliography that you can use as a starting place for your article."
+  },
+  {
+    "objectID": "posts/post-with-code/index.html#installation-for-existing-document",
+    "href": "posts/post-with-code/index.html#installation-for-existing-document",
+    "title": "Post With Code",
+    "section": "Installation For Existing Document",
+    "text": "Installation For Existing Document\nYou may also use this format with an existing Quarto project or document. From the quarto project or document directory, run the following command to install this format:\nquarto add mcanouil/quarto-letter@1.0.3"
+  },
+  {
+    "objectID": "posts/post-with-code/index.html#usage",
+    "href": "posts/post-with-code/index.html#usage",
+    "title": "Post With Code",
+    "section": "Usage",
+    "text": "Usage\nTo use the format, you can use the format name letter-pdf1. For example:\nquarto render template.qmd --to letter-pdf\nor in your document yaml\nformat: letter-pdf\nIt’s possible to change the subject title and the subject suffix, e.g., for a French letter:\nsubject-title: Objet\nsubject-suffix: \"&nbsp;:\"\nYou can view a preview of the rendered template at https://m.canouil.dev/quarto-letter/index.pdf."
+  },
+  {
+    "objectID": "posts/post-with-code/index.html#footnotes",
+    "href": "posts/post-with-code/index.html#footnotes",
+    "title": "Post With Code",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nCurrently only PDF is supported but HTML support will be added as soon as Paged.js is made available in Quarto.↩︎"
+  }
+]

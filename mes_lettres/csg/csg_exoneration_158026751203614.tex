@@ -6,10 +6,10 @@
 %
 \documentclass[
   french,
-  12pt,
 ]{letter}
 \usepackage{xcolor}
-\usepackage[left=4.2cm,right=2cm,bottom=2.8cm]{geometry}
+\usepackage[margin=1in,bottom=1in,left=1in,right=1in,left= 4.5cm, right=
+3cm, top= 2.5cm, bottom= 3cm]{geometry}
 \usepackage{amsmath,amssymb}
 \setcounter{secnumdepth}{-\maxdimen} % remove section numbering
 \usepackage{iftex}
@@ -25,7 +25,6 @@
 \usepackage{lmodern}
 \ifPDFTeX\else
   % xetex/luatex font selection
-  \setmainfont[]{Arial}
 \fi
 % Use upquote if available, for straight quotes in verbatim environments
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
@@ -101,10 +100,6 @@
 \else
 \usepackage[bidi=default]{babel}
 \fi
-\ifPDFTeX
-\else
-\babelfont{rm}[]{Arial}
-\fi
 % get rid of language-specific shorthands (see #6817):
 \let\LanguageShortHands\languageshorthands
 \def\languageshorthands#1{}
@@ -165,9 +160,10 @@
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \urlstyle{same}
 \hypersetup{
-  pdfauthor={Gladys G. FISCHER},
+  pdfauthor={Pierre J. FISCHER},
   pdflang={fr},
-  pdfsubject={Contrat CLE2},
+  pdfsubject={Demande d'exonération des prélevements sociaux sur pension
+française},
   colorlinks=true,
   linkcolor={blue},
   filecolor={Maroon},
@@ -176,22 +172,84 @@
   pdfcreator={LaTeX via pandoc}}
 
 
-\author{Gladys G. FISCHER}
-\date{10 février 2026}
+\author{Pierre J. FISCHER}
+\date{12 février 2026}
 \begin{document}
-\signature{Gladys G. FISCHER}
-\address{Gladys G. FISCHER\\ggsept@gmail.com +33 75777 0123\\39 rue de
-la Figairasse, Bat I\\34070 MONTPELLIER\\F-}
-\begin{letter}{ODDO BHF Banque Privée\\ ~ \\Objet: Contrat CLE2}
-\opening{Chère Madame}
+\signature{Pierre J. FISCHER}
+\address{Pierre J. FISCHER 1 58 02 67 512 036 14\\fishrp@pm.me +33 76748
+2009\\39 rue de la Figairasse, Bat I\\MONTPELLIER 34070\\F-}
+\begin{letter}{Centre de Gestion des Retraites\\DGFIP de la
+Haute-Vienne\\à l'attention de Mme Valérie Durieux\\87043 LIMOGES
+Cedex\\ ~ \\Subject: Demande d'exonération des prélevements sociaux sur
+pension française}
+\opening{Madame,}
 
 
-Suite à la première
+Je suis résident fiscal français mais assujetti au régime de la sécurité
+sociale de l'Office Européen des Brevets, établi à Munich.
+
+Par ailleurs, je suis bénéficiaire de la pension civile personnelle
+Numéro 3111020048771V servie par l'État français au titre de mes
+fonctions antérieures de fonctionnaire. Et je constate que les
+prélèvements sociaux (CSG, CRDS, CASA) sont opérés à la source sur cette
+pension depuis l'origine.
+
+En l'espèce, je suis assujetti au régime de la sécurité sociale de mon
+dernier employeur, l'Office Européen des Brevets à Munich qui mandate
+Cigna Healthcare pour en servir les prestations sociales. Je ne suis
+donc pas affilié à la Sécurité sociale française et mes frais de santé
+dans le cadre de ce régime étranger sont intégralement et exclusivement
+supportés par Cigna Healthcare.
+
+Or, conformément aux dispositions du règlement (CE) n° 883/2004 du
+Parlement européen et du Conseil du 29 avril 2004, relatif à la
+coordination des systèmes de sécurité sociale, une personne ne peut être
+assujettie qu'à un seul régime obligatoire de sécurité sociale au sein
+de l'Union européenne.
+
+En invoquant ce principe communautaire de l'unicité de la législation
+sociale découlant du réglement CE 1408-71, la législation française
+prévoit expressément que les personnes affiliées à un régime obligatoire
+de sécurité sociale d'un autre État membre de l'Union européenne, de
+l'Espace économique européen ou de la Suisse sont exonérées de CSG et de
+CRDS sur leurs revenus de source française (cf.~article L136-1 du Code
+de la sécurité sociale, ainsi que la loi de financement de la sécurité
+sociale pour 2019).
+
+En conséquence, je vous prie de bien vouloir : 1. Procéder à la
+cessation des prélèvements sociaux sur ma pension française. 2.
+M'accorder le remboursement des sommes indûment prélevées au titre des
+années antérieures, conformément aux dispositions applicables en matière
+de réclamation contentieuse.
+
+Vous trouverez ci-joint les pièces justificatives suivantes :
+
+\begin{itemize}
+\item
+  Attestation d'affiliation au régime obligatoire étranger (Cigna --
+  Office Européen des Brevets, Munich).
+\item
+  Copie de mon dernier relevé de pension mentionnant les prélèvements
+  sociaux.
+\item
+  Copie de mon avis d'imposition sur les revenus 2024.
+\end{itemize}
+
+Au demeurant, mon avis d'imposition reflète déjà l'exonération de la CSG
+sur les Revenus de Capitaux Mobiliers, comme en témoigne aussi la
+décision de remboursement de la CSG + CRDS sur un rachat d'assurance-vie
+opéré en 2021.
+
+Je reste à votre disposition pour toute information complémentaire
 
 
 
-\closing{Recevez mes plus sincères salutations,}
+\closing{et vous prie d'agréer, Madame, l'expression de mes salutations
+distinguées,}
 \vfill
-\cc{johanna.callait@oddo-bhf.com}
+\encl{\_CX01\_this\_csg\_exoneration\_158026751203614.pdf\\\_CX02\_2025\_11\_BPENS\_novembre.pdf\\\_CX03\_2551\_004106
+health insurance
+confirmation.pdf\\\_CX03\_\_H\_2144\_EPO\_ASSURANCE\_attestation.pdf\\\_CX04\_CIGNA\_InsuranceCertificate.pdf\\\_CX05\_Avis\_d\_impot\_\_sur\_les\_revenus\_et\_prelev\_sociaux\_2024.pdf\\\_CX06\_4135
+- DGFIP\_Bastien\_acceptation partielle.pdf}
 \end{letter}
 \end{document}

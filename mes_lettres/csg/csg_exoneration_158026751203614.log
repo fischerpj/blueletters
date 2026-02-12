@@ -1,15 +1,15 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.31)  10 FEB 2026 16:03
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025) (preloaded format=xelatex 2025.10.31)  12 FEB 2026 16:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**GG_cle2.tex
-(./GG_cle2.tex
+**csg_exoneration_158026751203614.tex
+(./csg_exoneration_158026751203614.tex
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-10-24>
 (/usr/local/texlive/texmf-dist/tex/latex/base/letter.cls
 Document Class: letter 2024/08/12 v1.3c Standard LaTeX document class
-(/usr/local/texlive/texmf-dist/tex/latex/base/size12.clo
-File: size12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+(/usr/local/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 )
 \longindentation=\dimen148
 \indentedwidth=\dimen149
@@ -469,110 +469,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
-)
-
-Package fontspec Info: 
-(fontspec)             Arial scale = 0.8311537999406586.
-
-
-Package fontspec Info: 
-(fontspec)             Arial scale = 1.
-
-
-Package fontspec Info: 
-(fontspec)             Arial scale = 0.8311537999406586.
-
-
-Package fontspec Info: 
-(fontspec)             Arial scale = 1.
-
-
-Package fontspec Info: 
-(fontspec)             Arial/B scale = 0.8311537999406586.
-
-
-Package fontspec Info: 
-(fontspec)             Arial/B scale = 1.
-
-
-Package fontspec Info: 
-(fontspec)             Arial/I scale = 0.8311537999406586.
-
-
-Package fontspec Info: 
-(fontspec)             Arial/I scale = 1.
-
-
-Package fontspec Info: 
-(fontspec)             Arial/BI scale = 0.8311537999406586.
-
-
-Package fontspec Info: 
-(fontspec)             Arial/BI scale = 1.
-
-
-Package fontspec Info: 
-(fontspec)             Font family 'Arial(0)' created for font 'Arial' with
-(fontspec)             options [Scale=MatchLowercase,Ligatures=TeX,Scale=1].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[1]"Arial/OT:language=dflt;mapping=tex-text;"
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[1]"Arial/B/OT:language=dflt;mapping=tex-text;"
-(fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->s*[1]"Arial/I/OT:language=dflt;mapping=tex-text;"
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->s*[1]"Arial/BI/OT:language=dflt;mapping=tex-text;"
-
-LaTeX Font Info:    Font shape `TU/Arial(0)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 29.
-
-Package fontspec Info: 
-(fontspec)             Arial scale = 0.9999975478716753.
-
-
-Package fontspec Info: 
-(fontspec)             Arial scale = 0.9999975478716753.
-
-
-Package fontspec Info: 
-(fontspec)             Arial/B scale = 0.9999975478716753.
-
-
-Package fontspec Info: 
-(fontspec)             Arial/I scale = 0.9999975478716753.
-
-
-Package fontspec Info: 
-(fontspec)             Arial/BI scale = 0.9999975478716753.
-
-
-Package fontspec Info: 
-(fontspec)             Font family 'Arial(1)' created for font 'Arial' with
-(fontspec)             options [Scale=MatchLowercase].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->s*[0.9999975478716753]"Arial/OT:language=dflt;"
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->s*[0.9999975478716753]"Arial/B/OT:language=dflt;"
-(fontspec)             - 'italic' (m/it) with NFSS spec.:
-(fontspec)             <->s*[0.9999975478716753]"Arial/I/OT:language=dflt;"
-(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
-(fontspec)             <->s*[0.9999975478716753]"Arial/BI/OT:language=dflt;"
-
-LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/lmr/m/n --> TU/Arial(1)/m/n on input line 29.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> TU/Arial(1)/m/it on input line 29.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> TU/Arial(1)/b/n on input line 29.
-(/usr/local/texlive/texmf-dist/tex/latex/parskip/parskip.sty
+) (/usr/local/texlive/texmf-dist/tex/latex/parskip/parskip.sty
 Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
 (/usr/local/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
@@ -711,11 +608,11 @@ headfoot=, strings=, config=, hyphenmap=, or a language name.
 
  
 Here is how much of TeX's memory you used:
- 11554 strings out of 470406
- 227767 string characters out of 5486453
- 808738 words of memory out of 5000000
- 39828 multiletter control sequences out of 15000+600000
- 627825 words of font info for 53 fonts, out of 8000000 for 9000
+ 11483 strings out of 470406
+ 226236 string characters out of 5486453
+ 808845 words of memory out of 5000000
+ 39776 multiletter control sequences out of 15000+600000
+ 627737 words of font info for 42 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 90i,0n,116p,512b,263s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,0n,93p,536b,118s stack positions out of 10000i,1000n,20000p,200000b,200000s
 No pages of output.
