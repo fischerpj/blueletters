@@ -29,7 +29,7 @@ encl:
   - _CX05_Avis_d_impot__sur_les_revenus_et_prelev_sociaux_2024.pdf
   - _CX06_4135 - DGFIP_Bastien_acceptation partielle.pdf
   
-ps: 
+ps:
 format: 
   letter-pdf:
     geometry: "left= 4.5cm, right= 3cm, top= 2.5cm, bottom= 3cm"
