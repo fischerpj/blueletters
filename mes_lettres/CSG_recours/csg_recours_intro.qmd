@@ -1,0 +1,182 @@
+---
+lang: french
+author:
+  - name: Pierre J. FISCHER 
+    affiliation:
+      - name: Pierre J. FISCHER 1 58 02 67 512 036 14
+        department: fishrp@pm.me +33 76748 2009
+        address: 39 rue de la Figairasse, Bat I
+        postal-code: 34070
+        city: MONTPELLIER
+address:
+  - Tribunal administratif de Montpellier
+  - 6 rue Pitot
+  - 34063 MONTPELLIER CEDEX 2
+subject: "Demande d'exonération des prélevements sociaux sur pension française"
+subject-title: ""
+subject-suffix: ""
+opening: "Madame la Présidente,"
+closing: "et vous prie d'agréer, Madame la Présidente, l'expression de mes salutations distinguées,"
+cc:
+encl:
+  - _CX01_this_csg_exoneration_158026751203614.pdf
+  - _CX02_2025_11_BPENS_novembre.pdf
+  - _CX03_2551_004106 health insurance confirmation.pdf
+  - _CX03__H_2144_EPO_ASSURANCE_attestation.pdf
+  - _CX04_CIGNA_InsuranceCertificate.pdf
+  - _CX05_Avis_d_impot__sur_les_revenus_et_prelev_sociaux_2024.pdf
+  - _CX06_4135 - DGFIP_Bastien_acceptation partielle.pdf
+  
+ps:
+format: 
+  letter-pdf:
+    geometry: "left= 5cm, right= 3cm, top= 2.5cm, bottom= 3cm"
+---
+
+I. – Exposé des faits
+
+M. Pierre Fischer, résidant en France, est pensionné d’une organisation internationale établie en Allemagne.  
+
+En vertu du statut du personnel de cette organisation, il est obligatoirement affilié à son régime interne de sécurité sociale, lequel assure l’intégralité des prestations de santé en nature, sans intervention du régime français.
+
+Par décision du \[date\], la CPAM a assujetti M. \[Nom\] à la cotisation maladie sur les pensions prévue à l’article L136‑1 du Code de la sécurité sociale.
+
+M. Pierre F. a formé un recours amiable le \[date\], rejeté le \[date\].  
+
+Il saisit donc le Tribunal judiciaire.
+
+------------------------------------------------------------------------
+
+II\. – Discussion
+
+A. – Sur le champ d’application de l’article L136‑1 du Code de la sécurité sociale
+
+L’article L136‑1 CSS prévoit que la cotisation maladie sur les pensions s’applique aux personnes :
+
+\> « à la charge d’un régime obligatoire français d’assurance maladie pour les prestations en nature. »
+
+La condition déterminante est donc la charge financière effective supportée par le régime français pour les soins de l’assuré.
+
+Or, M. \[Nom\] n’est pas à la charge du régime français pour les prestations en nature, dès lors que :
+
+\- il est affilié obligatoirement au régime interne de l’organisation internationale,  
+
+\- ce régime prend intégralement en charge les soins,  
+
+\- la France ne rembourse aucune prestation,  
+
+\- l’assuré ne consomme pas les prestations du régime français.
+
+La condition d’assujettissement posée par L136‑1 n’est donc pas remplie.
+
+------------------------------------------------------------------------
+
+B. – Sur l’inapplicabilité des règlements européens de coordination
+
+La CPAM soutient parfois que les règlements (CE) n°883/2004 et 987/2009 ne s’appliquent pas aux organisations internationales, ce qui est exact.
+
+Cependant, cette inapplicabilité est sans incidence sur l’application de l’article L136‑1 CSS.
+
+En effet :
+
+\- les règlements européens visent à résoudre les conflits de législations nationales,  
+
+\- tandis que L136‑1 repose sur la notion de charge financière effective.
+
+Ce sont deux logiques totalement distinctes.
+
+L’absence d’application des règlements européens n’autorise pas la CPAM à ignorer la condition expresse posée par L136‑1.
+
+------------------------------------------------------------------------
+
+C. – Sur la notion de “charge” : une appréciation financière, non juridique
+
+La jurisprudence et la doctrine administrative interprètent la notion d’« être à la charge » comme :
+
+\- la prise en charge effective des soins,  
+
+\- et non comme un simple rattachement administratif.
+
+Ainsi, une personne n’est pas “à la charge” du régime français lorsque :
+
+\- un autre régime, même non européen,  
+
+\- même non étatique,  
+
+\- même non coordonné,  
+
+assure l’intégralité des prestations en nature.
+
+La France ne supportant aucune dépense, elle ne peut exiger une cotisation destinée à financer des prestations qu’elle ne verse pas.
+
+------------------------------------------------------------------------
+
+D. – Sur la cohérence avec la pratique française pour les régimes étrangers non européens
+
+La France applique déjà l’article L136‑1 :
+
+\- aux retraités couverts par des régimes privés étrangers (ex. Medicare US),  
+
+\- aux personnes couvertes par des régimes d’entreprises étrangères,  
+
+\- aux personnes couvertes par des régimes d’États tiers hors UE.
+
+Dans tous ces cas, l’exonération est accordée dès lors que les soins ne sont pas à la charge de la France.
+
+Il serait incohérent et discriminatoire de traiter différemment un régime d’organisation internationale, alors même que celui-ci est obligatoire, autonome, et exclusif.
+
+------------------------------------------------------------------------
+
+E. – Sur le principe de non‑double financement
+
+M. \[Nom\] cotise déjà au régime interne obligatoire de l’organisation internationale.
+
+Lui imposer une cotisation maladie française reviendrait à :
+
+\- financer deux fois des prestations identiques,  
+
+\- alors que la France ne supporte aucune charge,  
+
+\- en violation du principe de contributivité et de proportionnalité.
+
+------------------------------------------------------------------------
+
+III\. – Conclusion
+
+M. \[Nom\] ne peut être considéré comme “à la charge” du régime français pour les prestations en nature, condition indispensable à l’application de l’article L136‑1 CSS.
+
+La cotisation maladie mise à sa charge est donc dépourvue de base légale.
+
+------------------------------------------------------------------------
+
+PAR CES MOTIFS
+
+Il est demandé au Tribunal judiciaire – Pôle social de :
+
+1\. Dire et juger que M. \[Nom\] n’est pas à la charge d’un régime obligatoire français pour les prestations en nature ;  
+
+2\. Dire et juger que l’article L136‑1 CSS ne trouve pas à s’appliquer en l’espèce ;  
+
+3\. Annuler la décision de la CPAM du \[date\] ;  
+
+4\. Ordonner le remboursement des cotisations indûment prélevées ;  
+
+5\. Condamner la CPAM aux dépens.
+
+------------------------------------------------------------------------
+
+Pièces jointes
+
+\- PJ1 : Statut du personnel / règlement interne de l’organisation internationale  
+
+\- PJ2 : Attestation de prise en charge des soins par l’organisation  
+
+\- PJ3 : Décision de la CPAM  
+
+\- PJ4 : Recours amiable  
+
+\- PJ5 : Décision de la CRA  
+
+\- PJ6 : Relevés de pension  
+
+\- PJ7 : Justificatifs de non‑prise en charge par la France (si disponibles)
