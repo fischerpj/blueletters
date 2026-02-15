@@ -30,3 +30,18 @@ sudo apt install ttf-mscorefonts-installer systemfonts::system_fonts()
 -   GENERATE the site with **quarto render**
 -   2604: resume with letter schott2
 -   2606 PUSHUP + remove xps
+
+#### How to inject files into Docker
+
+nb: /home/pepo is Ubuntu vs home/rstudio is Docker
+
+1.  from Windows PowerShell local
+
+-   in C:\_myPRO26\_\_myPENSIONS
+-   scp -r -p \_CSG_recours pepo\@192.168.8.122:\~/ \# copies into pepo dir
+-   scp -r -p \_CSG_textes_for_NBLM pepo\@192.168.8.122:\~/
+
+2.  on Ubuntu Terminal\
+
+-   from pepo
+-   docker cp \_CSG_recours rvplus:/home/rstudio/tax_future
