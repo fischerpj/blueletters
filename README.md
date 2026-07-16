@@ -8,28 +8,28 @@ sudo apt install ttf-mscorefonts-installer systemfonts::system_fonts()
 
 1.  Install and Create
 
-    -   *quarto use template fischerpj/quarto-letter* because it's a fork of mcanouil
+    - *quarto use template fischerpj/quarto-letter* because it's a fork of mcanouil
 
-    -   quarto use template mcanouil/quarto-letter
+    - quarto use template mcanouil/quarto-letter
 
 <!-- -->
 
 1.  Add / Install just the \_extensions folder
 
-    -   quarto add mcanouil/quarto-letter
-    -   *quarto add fischerpj/quarto-letter* creates \_extensions folder
+    - quarto add mcanouil/quarto-letter
+    - *quarto add fischerpj/quarto-letter* creates \_extensions folder
 
 ## log
 
--   REMOTELY i.e. on github, create this repo from scratch and empty without README as **https://github.com/fischerpj/blueletters.git**
--   LOCALLY create in RStudio the version of this project with **quarto create project blog blueletters**
--   PUSH with
-    -   git remote add origin https://github.com/fischerpj/blueletters.git
-    -   git branch -M main
-    -   git push -u origin main
--   GENERATE the site with **quarto render**
--   2604: resume with letter schott2
--   2606 PUSHUP + remove xps
+- REMOTELY i.e. on github, create this repo from scratch and empty without README as **https://github.com/fischerpj/blueletters.git**
+- LOCALLY create in RStudio the version of this project with **quarto create project blog blueletters**
+- PUSH with
+  - git remote add origin https://github.com/fischerpj/blueletters.git
+  - git branch -M main
+  - git push -u origin main
+- GENERATE the site with **quarto render**
+- 2604: resume with letter schott2
+- 2606 PUSHUP + remove xps
 
 #### How to inject files into Docker
 
@@ -37,11 +37,12 @@ nb: /home/pepo is Ubuntu vs home/rstudio is Docker
 
 1.  from Windows PowerShell local
 
--   in C:\_myPRO26\_\_myPENSIONS
--   scp -r -p \_CSG_recours pepo\@192.168.8.122:\~/ \# copies into pepo dir
--   scp -r -p \_CSG_textes_for_NBLM pepo\@192.168.8.122:\~/
+- in C:\_myPRO26\_\_myPENSIONS
+- scp -r -p \_CSG_recours pepo\@192.168.8.122:\~/ \# copies into pepo dir
+- scp -r -p \_CSG_textes_for_NBLM pepo\@192.168.8.122:\~/
 
 2.  on Ubuntu Terminal\
 
--   from pepo
--   docker cp \_CSG_recours rvplus:/home/rstudio/tax_future
+- from pepo
+- docker cp \_CSG_recours rvplus:/home/rstudio/tax_future
+- 2628 push
