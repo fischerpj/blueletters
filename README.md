@@ -45,4 +45,4 @@ nb: /home/pepo is Ubuntu vs home/rstudio is Docker
 
 - from pepo
 - docker cp \_CSG_recours rvplus:/home/rstudio/tax_future
-- 2628 push
+- 2628 local ssh-keygen remote repo deply keys + RW
