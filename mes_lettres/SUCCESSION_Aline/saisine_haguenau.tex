@@ -1,0 +1,435 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+]{letter}
+
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else  
+    % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage[margin=1in,bottom=1in,left=1in,right=1in]{geometry}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+% Make \paragraph and \subparagraph free-standing
+\makeatletter
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}{
+    \@ifstar
+      \xxxParagraphStar
+      \xxxParagraphNoStar
+  }
+  \newcommand{\xxxParagraphStar}[1]{\oldparagraph*{#1}\mbox{}}
+  \newcommand{\xxxParagraphNoStar}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}{
+    \@ifstar
+      \xxxSubParagraphStar
+      \xxxSubParagraphNoStar
+  }
+  \newcommand{\xxxSubParagraphStar}[1]{\oldsubparagraph*{#1}\mbox{}}
+  \newcommand{\xxxSubParagraphNoStar}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+\makeatother
+
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{% scales image to fit in text height/width
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
+% Set default figure placement to htbp
+\def\fps@figure{htbp}
+\makeatother
+
+\usepackage{booktabs}
+\usepackage{caption}
+\usepackage{longtable}
+\usepackage{colortbl}
+\usepackage{array}
+\usepackage{anyfontsize}
+\usepackage{multirow}
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table des matières}
+\else
+  \newcommand\contentsname{Table des matières}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{Liste des Figures}
+\else
+  \newcommand\listfigurename{Liste des Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{Liste des Tables}
+\else
+  \newcommand\listtablename{Liste des Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{Liste des Listings}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+
+\ifLuaTeX
+\usepackage[bidi=basic]{babel}
+\else
+\usepackage[bidi=default]{babel}
+\fi
+\babelprovide[main,import]{french}
+% get rid of language-specific shorthands (see #6817):
+\let\LanguageShortHands\languageshorthands
+\def\languageshorthands#1{}
+\usepackage{bookmark}
+
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  pdfauthor={Pierre J. FISCHER},
+  pdflang={fr},
+  pdfsubject={Assignation en partage judiciaire de succession FISCHER
+née DURRENBERGER Aline},
+  colorlinks=true,
+  linkcolor={blue},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={Blue},
+  pdfcreator={LaTeX via pandoc}}
+
+
+\author{Pierre J. FISCHER}
+\date{24 juillet 2026}
+
+\begin{document}
+\signature{Pierre J. FISCHER}
+\address{Pierre J. FISCHER\\fishrp@pm.me +33 76748 2009\\39 rue de la
+Figairasse, Bat I\\MONTPELLIER 34070\\F-}
+\begin{letter}{Tribunal de Proximité de Haguenau\\41 rue de la
+Redoute\\CS 10240\\67504 HAGUENAU Cedex\\ ~ \\Objet: Assignation en
+partage judiciaire de succession FISCHER née DURRENBERGER Aline}
+\opening{Madame, Monsieur,}
+
+
+LE CONTEXTE
+
+Je soussigné, Pierre Jacques FISCHER, demeurant au 39 rue de la
+Figairasse, Bât I, 34070 MONTPELLIER, ai l'honneur de vous saisir par la
+présente afin de solliciter un partage judiciaire concernant la
+succession de feu FISCHER née DURRENBERGER Aline, décédée selon
+l'\textbf{acte de décès}\(^d\) de FISCHER née DURRENBERGER Aline du 19
+Nov 2021, Numéro 37 - Mairie de Mertzwiller
+
+En effet, trois années après le décès et deux tentatives de règlement
+amiable, il n'a pas été possible de parvenir à un accord entre les
+parties concernées. Par conséquent, je me vois contraint de demander
+l'intervention du tribunal pour procéder au partage des biens
+conformément aux dispositions légales en vigueur.
+
+En effet, les trois soeurs ont refusé tout à la fois, de faire la
+réunion fictive des biens distribués après la donation-partage de 1986
+et de me restituer, sur l'immeuble sis à Mulhouse, le quasi-usufruit né
+d'un partage judiciaire qui m'a été imposé en 2011. Et alors que le
+notaire refuse de m'adresser un procès-verbal de carence, la situation
+est dans l'impasse.
+
+LES PARTIES
+
+la \textbf{donation-partage}\(^a\) du 19 Fev 1986 des époux Georges
+Fischer et Aline Durrenberger, par Me Lotz en quatre parts égales de
+biens immobiliers au profit des parties héritières et seuls quatre
+enfants, identifiés par le projet \textbf{d'affirmation
+sacramentelle}\(^b\) du 3 mars 2022 qui actualise les adresses comme
+suit:
+
+\begin{itemize}
+\item
+  Michèle Fischer, demeurant à Mertzwiller (67580) 9 rue du Général
+  Koenig
+\item
+  Marguerite Besnier, demeurant à Goersdorf (67360) 9 rue des
+  châtaigniers
+\item
+  Aline Salzeman, demeurant à Armeau (89500) 34 rue de l'île de France
+\item
+  Pierre Fischer, demeurant à Montpellier (34070) 39 rue de la
+  Figairasse Bât I
+
+  ~\\
+\end{itemize}
+
+LE PATRIMOINE EXISTANT
+
+\begin{itemize}
+\item
+  en plus de la donation-partage sus-mentionnée la \textbf{déclaration
+  de succession}\(^e\) du 3 mars 2022 projetée par Me Lotz, se limitait
+  au partage en quatre parts égales
+\item
+  du seul \textbf{actif net successoral} à hauteur de \textbf{129 026,58
+  €}. Cette proposition n'a pas trouvé l'accord de Pierre F. pour les
+  raisons ci-dessous.
+\end{itemize}
+
+LES MOTIFS
+
+\begin{itemize}
+\item
+  la demande de restitution de \textbf{74700 €} correspondant à
+  \textbf{l'usufruit perdu}\(^c\) précocemment par la vente judiciaire
+  forcée en 2012 du lot immobilier de Pierre F. (le nu-proprétaire) se
+  heurte à un refus des trois soeurs alors même qu'elles défendent
+  Michèle F (nue-propriétaire) qui a \textbf{consommé l'usufruit} sur
+  son lot avant le décès du \emph{de cujus.} Considérant l'égalité dans
+  la nature des biens (i.e.~l'usufruit sur le bien immobiliier dans la
+  période entre la donation et le décès ), ainsi que l'égalité ès
+  qualité d'héritier, il n'est pas recevable de leur appliquer \emph{in
+  fine} une règle de partage doublement discriminatoire et inique.
+\item
+  la lettre \textbf{lotz\_rapport\_signe.pdf}\(^g\) du 21 Juin 2024
+  demande le \textbf{rapport des libéralités,} sérieusement étayé par le
+  chiffrage et l'argumentaire du document
+  \textbf{lotz\_technique-v0.99.pdf}\(^h\) qui analyse les factures
+  afférentes aux gros chèques (préalablment identifiés sur les relevés
+  bancaires), et permet d'identifier la nature, le montant et les
+  bénéficiaires des gros travaux ainsi que le sort de l'usufruit. Cette
+  étude conclut à un transfert massif et tardif de \textbf{libéralités
+  déguisées} aux profit des seules soeurs concomittant à
+  l'appauvrissement de la donatrice.
+\end{itemize}
+
+\emph{en résumé, \textbf{le rapport des libéralités} (dont l'effet
+touchera l'ensemble des héritiers) demande à retenir ce qui est
+classique en pareil cas, à savoir les investissements en gros travaux
+(133 K€), le bénéfice du logement gratuit sur 35 ans (160 K€), la valeur
+du mobilier restant (30 K€) et la maison (160 K€) érigée après la
+donation de 1986 sur le terrain nu sis à Mertzwiller 9 rue d'Eschbach
+(lot de Marguerite B.) et de refaire en conséquence le partage de la
+réunion fictive ainsi obtenue. Cf détail sous ``Demandes''.}
+
+\begin{itemize}
+\tightlist
+\item
+  enfin, \textbf{l'argument du faisceau} réside dans l'observation que
+  les avantages (dont la matérialité non négigeable se monte à 450
+  K\emph{€)} sont toujours au bénéfice des soeurs et au détriment du
+  fils.
+\end{itemize}
+
+LES DILIGENCES
+
+\begin{itemize}
+\tightlist
+\item
+  la \textbf{lettre\_rappel\_signe.pdf}\(^f\) résume l'histoire des
+  diligences, restées vaines du 15 nov 2023 et 22 juin 2024 alors que
+\end{itemize}
+
+\emph{le dernier échange de juin 2024, n'a reçu de Me Lotz qu'une fin de
+non-recevoir, actée en retour par ma lettre
+\textbf{2024-10-11\_declinaison\_signée.pdf}}\(^i\) \emph{qui met fin à
+trois années d'effort amiable.}
+
+\begin{itemize}
+\tightlist
+\item
+  enfin \textbf{LETRECO\_Depot\_R5OK2POF\_Successio-enberger.pdf}\(^j\)
+  du 22 Juin 2024 apporte la preuve légale de cette diligence par la
+  transmission à Me Lotz de \textbf{lotz\_technique-v0.99.pdf}
+  détaillant la source, les méthodes d'évaluation ainsi que les
+  libéralités qualifiables de donation déguisées, que ma demande dans
+  \textbf{lotz\_rapport\_signe.pdf} souhaite voir rapporter à ce projet
+  de partage revisé.
+\end{itemize}
+
+LES DEMANDES
+
+Si la donation-partage de 1986 était voulue égalitaire en son temps, je
+soussigné Pierre F. demande la réévaluation de la situation au moment du
+décès par la double prise en considération a) du
+\textbf{``quasi-usufruit'' perdu} et b) du \textbf{rapport des
+libéralités} dûment étayé. Pour ces raisons, je demande au tribunal
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  en première instance d'accorder la \textbf{restitution du
+  quasi-usufruit} au profit de Pierre F. pour une valeur de 74.7 K€ au
+  motif de lever le caractère discriminatoire dans le traitement des
+  usufruits consommés avant le décès.
+\end{enumerate}
+
+\begin{quote}
+\emph{En effet il n'est pas recevable de faire valoir pour s'y opposer
+d'invoquer une double iniquité: celle de refuser la restitution d'un
+usufruit perdu par Pierre F et de défendre en même temps l'usufruit
+gagné par Michèle F.}
+\end{quote}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  d'effectuer ensuite, la \textbf{réunion fictive} de l'actif restant
+  avec le rapport des libéralités chiffrées par le document
+  lotz\_technique et d'opérer le partage sur le modèle ci-dessous (ici
+  sans la restitution préalalble de l'usufruit).
+\end{enumerate}
+
+\begin{table}
+\caption*{
+{\fontsize{20}{25}\selectfont  Formule de partage amiable\fontsize{12}{15}\selectfont }
+} 
+\fontsize{12.0pt}{14.0pt}\selectfont
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}}l|lrrr}
+\toprule
+ & nature & deja\_recu & quotepart & a\_recevoir \\ 
+\midrule\addlinespace[2.5pt]
+\multicolumn{5}{l}{michèle} \\[2.5pt] 
+\midrule\addlinespace[2.5pt]
+sous\_total & — & -191.50 & 145.21 & -46.29 \\ 
+\midrule 
+ & loyer & -160.0 & 48.4 & -111.6 \\ 
+ & mobilier & -30.0 & 48.4 & 18.4 \\ 
+ & travaux & -1.5 & 48.4 & 46.9 \\ 
+\midrule\addlinespace[2.5pt]
+\multicolumn{5}{l}{marguerite} \\[2.5pt] 
+\midrule\addlinespace[2.5pt]
+sous\_total & — & -187.00 & 145.21 & -41.79 \\ 
+\midrule 
+ & travaux & -27.0 & 72.6 & 45.6 \\ 
+ & maison & -160.0 & 72.6 & -87.4 \\ 
+\midrule\addlinespace[2.5pt]
+\multicolumn{5}{l}{aline} \\[2.5pt] 
+\midrule\addlinespace[2.5pt]
+sous\_total & — & -71.00 & 145.21 & 74.21 \\ 
+\midrule 
+ & travaux & -71.0 & 145.2 & 74.2 \\ 
+\midrule\addlinespace[2.5pt]
+\multicolumn{5}{l}{pierre} \\[2.5pt] 
+\midrule\addlinespace[2.5pt]
+sous\_total & — & -2.34 & 145.21 & 142.87 \\ 
+\midrule 
+ & don & -2.3 & 145.2 & 142.9 \\ 
+\midrule 
+\midrule 
+reunion & — & -451.84 & 580.84 & 129 \\ 
+\bottomrule
+\end{tabular*}
+\end{table}
+
+\begin{quote}
+\emph{De surcroît, les libéralités supplémentaires accordées aux soeurs
+après la perte de l'usufruit de Pierre F. en 2012, n'ont fait que
+creuser cette inégalité, toujours à mon détriment, sans aucune vélleité
+de compensation de la part de Fischer Aline.}
+\end{quote}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{2}
+\tightlist
+\item
+  le remboursement des \textbf{dépens} ainsi que des \textbf{frais
+  irrépétibles} selon CPC Art 700.
+\end{enumerate}
+
+LE CHOIX DU NOTAIRE
+
+Je souhaite voir commis le
+\href{https://www.bing.com/ck/a?!&&p=f2066ee7e9a9fe535e713659e0db4ee90bd39e3fa6431940c2eba6275c4f6b87JmltdHM9MTczOTE0NTYwMA&ptn=3&ver=2&hsh=4&fclid=04d29d0e-2a39-6ad9-1b33-89a22b806b7b&psq=notaire+Schott+strabsourg&u=a1aHR0cHM6Ly9zY2hvdHQtc2Nod2FhYi1naWxsZXQtbm90YWlyZXMuZnIv&ntb=1}{Notaire
+Valentin Schott ou à défault Yannick Schott} 1 Rue du Dôme - 67000
+Strasbourg. etude@67006.notaires.fr \href{tel:+33388321087}{03 88 32 10
+87}
+
+Restant à votre disposition pour toute information complémentaire.
+
+
+
+\closing{Je vous prie d'agréer, Madame, Monsieur, l'expression de mes
+salutations distinguées,}
+\vfill
+\encl{19 Fev 1986 a\_2\_DONATION\_FISCHER\_1986.pdf\\3 Mars 2022
+b\_PROJET\_AFFIRMATION SACRAMENTELLE FISCHER Aline née
+DURRENBERGER.pdf\\25 Sep 2012 c\_D\_decompte\_mulhouse.pdf
+(usufruit)\\19 Nov 2021 d\_1\_DECES\_epoux\_FISCHER.pdf\\3 Mars 2022
+e\_PROJET\_DECLARATION SUCCESSION FISCHER Aline née DURRENBERGER.pdf\\21
+Jun 2024 f\_lettre\_rappel\_signe.pdf\\21 Jun 2024
+g\_lotz\_rapport\_signe.pdf\\21 Jun 2024 h\_lotz\_technique-v0.99.pdf
+(22 pages)\\11 Oct 2024 i\_2024-10-11\_declinaison\_signée.pdf\\22 Jun
+2024 j\_LETRECO\_Depot\_R5OK2POF\_Successio-enberger.pdf\\10 Fev 2025
+k\_saisine\_haguenau (la présente)}
+\end{letter}
+\end{document}
