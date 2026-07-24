@@ -1,0 +1,281 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  12pt,
+  letterpaper,
+  DIV=11,
+  numbers=noendperiod]{scrartcl}
+
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else  
+    % xetex/luatex font selection
+    \setmainfont[]{CenturySchL-Roma}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+% Make \paragraph and \subparagraph free-standing
+\makeatletter
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}{
+    \@ifstar
+      \xxxParagraphStar
+      \xxxParagraphNoStar
+  }
+  \newcommand{\xxxParagraphStar}[1]{\oldparagraph*{#1}\mbox{}}
+  \newcommand{\xxxParagraphNoStar}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}{
+    \@ifstar
+      \xxxSubParagraphStar
+      \xxxSubParagraphNoStar
+  }
+  \newcommand{\xxxSubParagraphStar}[1]{\oldsubparagraph*{#1}\mbox{}}
+  \newcommand{\xxxSubParagraphNoStar}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+\makeatother
+
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{% scales image to fit in text height/width
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
+% Set default figure placement to htbp
+\def\fps@figure{htbp}
+\makeatother
+
+\usepackage{booktabs}
+\usepackage{caption}
+\usepackage{longtable}
+\usepackage{colortbl}
+\usepackage{array}
+\KOMAoption{captions}{tableheading}
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table of contents}
+\else
+  \newcommand\contentsname{Table of contents}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{List of Figures}
+\else
+  \newcommand\listfigurename{List of Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{List of Tables}
+\else
+  \newcommand\listtablename{List of Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+
+\usepackage{bookmark}
+
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  pdftitle={System\_Fonts},
+  pdfauthor={GranPiero},
+  colorlinks=true,
+  linkcolor={blue},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={Blue},
+  pdfcreator={LaTeX via pandoc}}
+
+
+\title{System\_Fonts}
+\author{GranPiero}
+\date{2024-04-08}
+
+\begin{document}
+\maketitle
+
+
+\subsection{Install Fonts on Linux}\label{install-fonts-on-linux}
+
+\begin{itemize}
+\item
+  i.e.~inside Docker /WSL
+\item
+  https://www.google.com/search?q=how+to+install+a+font+on+gnu\%2Blinux
+\item
+  Most Linux distributions store the system-wide fonts in the
+  ``/usr/share/fonts'' directory.
+\end{itemize}
+
+\subsubsection{script}\label{script}
+
+sudo mkdir /usr/share/fonts/truetype/arial
+
+cd /home/rstudio/EXT/\_myFONTS/Arial
+
+sudo mv \emph{.ttf /usr/share/fonts/truetype/arial}
+
+\emph{sudo fc-cache -f -v}
+
+\emph{sudo chgrp rstudio arial + sudo chown rstudio arial}
+
+\emph{sudo chown rstudio} .ttf + sudo chgrp rstudio *.ttf
+
+fc-match arial
+
+This result was proved in \cite{jones.1967}.
+
+\begin{tabular}{|l|l|}\hline
+Age & Frequency \\ \hline
+18--25  & 15 \\
+26--35  & 33 \\
+36--45  & 22 \\ \hline
+\end{tabular}
+
+This manipulates system\_fonts
+
+\begin{longtable*}{rlr}
+\caption*{
+{\large System Fonts available here}
+} \\ 
+\toprule
+ID & family & N \\ 
+\midrule\addlinespace[2.5pt]
+1 & Arial & 5 \\ 
+2 & C059 & 8 \\ 
+3 & Century Schoolbook L & 4 \\ 
+4 & D050000L & 2 \\ 
+5 & Dingbats & 1 \\ 
+6 & Genos & 18 \\ 
+7 & Nimbus Mono L & 4 \\ 
+8 & Nimbus Mono PS & 8 \\ 
+9 & Nimbus Roman & 8 \\ 
+10 & Nimbus Roman No9 L & 4 \\ 
+11 & Nimbus Sans & 8 \\ 
+12 & Nimbus Sans L & 8 \\ 
+13 & Nimbus Sans Narrow & 8 \\ 
+14 & P052 & 8 \\ 
+15 & Poppins & 18 \\ 
+16 & Roboto & 12 \\ 
+17 & Roboto Condensed & 8 \\ 
+18 & Standard Symbols L & 1 \\ 
+19 & Standard Symbols PS & 2 \\ 
+20 & TeX Gyre Adventor & 4 \\ 
+21 & TeX Gyre Bonum & 4 \\ 
+22 & TeX Gyre Bonum Math & 1 \\ 
+23 & TeX Gyre Chorus & 1 \\ 
+24 & TeX Gyre Cursor & 4 \\ 
+25 & TeX Gyre DejaVu Math & 1 \\ 
+26 & TeX Gyre Heros & 4 \\ 
+27 & TeX Gyre Heros Cn & 4 \\ 
+28 & TeX Gyre Pagella & 4 \\ 
+29 & TeX Gyre Pagella Math & 1 \\ 
+30 & TeX Gyre Schola & 4 \\ 
+31 & TeX Gyre Schola Math & 1 \\ 
+32 & TeX Gyre Termes & 4 \\ 
+33 & TeX Gyre Termes Math & 1 \\ 
+34 & URW Bookman & 8 \\ 
+35 & URW Bookman L & 4 \\ 
+36 & URW Chancery L & 1 \\ 
+37 & URW Gothic & 8 \\ 
+38 & URW Gothic L & 4 \\ 
+39 & URW Palladio L & 4 \\ 
+40 & Z003 & 2 \\ 
+\bottomrule
+\end{longtable*}
+
+\begin{longtable*}{rllr}
+\caption*{
+{\large System Fonts available here}
+} \\ 
+\toprule
+ID & family & name & N \\ 
+\midrule\addlinespace[2.5pt]
+1 & Arial & Arial-Black & 1 \\ 
+2 & Arial & Arial-BoldItalicMT & 1 \\ 
+3 & Arial & Arial-ItalicMT & 1 \\ 
+4 & Arial & Arial-BoldMT & 1 \\ 
+5 & Arial & ArialMT & 1 \\ 
+6 & Century Schoolbook L & CenturySchL-Ital & 1 \\ 
+7 & Century Schoolbook L & CenturySchL-Bold & 1 \\ 
+8 & Century Schoolbook L & CenturySchL-Roma & 1 \\ 
+9 & Century Schoolbook L & CenturySchL-BoldItal & 1 \\ 
+\bottomrule
+\end{longtable*}
+
+
+
+
+\end{document}
